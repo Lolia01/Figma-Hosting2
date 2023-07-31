@@ -1,0 +1,41 @@
+<section class="sponsors">
+            <div class="sponsor-top">
+                <div class="sponsor-top-left">
+                    <h2 class="sponsor-big-text"></h2>
+                    <p class="sponsor-small-text">
+                        <h3 class="true">True Cloud Web Hosting.</h3>
+                        <p class="text">
+                            True Cloud Web Hosting All of the hosting packages we offer are deployed instantly on our SSD powered cloud.
+                            We don’t use dedicated servers that operate on single pieces of hardware.
+                            Our entire infrastructure is built to be reliable, secure, and scalable.
+                        </p>
+                    </p>
+                </div>
+               <p>
+                <div class="sponsor-top-right">
+                    <img src="../Images/Panel.svg" alt="">
+                    <img src="../Images/Imunify.svg" alt="">
+                    <img src="../Images/litespeed.svg" alt="">
+                    <img src="../Images/Soft.svg" alt="">
+                    <img src="../Images/Rectangle 12.svg" alt="">
+                    <img src="../Images/Rectangle 13.svg" alt="">
+                </div>
+               </p>
+                <p class="sponsor-btm">
+                    <div class="sponsor-bottom">
+                        <div class="services-cars">
+                            <img src="../Images/Uptime.svg" alt="">
+                        </div>
+                        <div class="services-cars">
+                            <img src="../Images/Ups.svg" alt="">
+                        </div>
+                        <div class="services-cars">
+                            <img src="../Images/SSL.svg" alt="">
+                        </div>
+                        <div class="services-cars">
+                            <img src="../Images/Landing page for Hosting Company (Community).zip" alt="">
+                        </div>
+                </p>
+                </div>
+            </div>
+        </section>

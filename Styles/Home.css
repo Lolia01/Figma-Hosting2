@@ -1,0 +1,244 @@
+* {
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0 110px;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body header .nav {
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+body header .nav-link {
+  margin-right: 30px;
+  text-decoration: none;
+  font-size: 15px;
+  line-height: 27.5px;
+  font-weight: 600;
+  color: black;
+}
+body header .nav-link:hover {
+  color: red;
+  font-weight: 600;
+  border-bottom: 1px solid red;
+}
+body header .acct-border {
+  border-right: 1px solid gray;
+  padding-right: 30px;
+}
+body main .hero-section {
+  display: flex;
+  height: calc(100vh - 64px - 84px);
+}
+body main .hero-section .left-section {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-right: 50px;
+  padding-top: 60px;
+}
+body main .hero-section .left-section-btn button {
+  border: 10000;
+  color: gray;
+  font-weight: 600;
+  background-color: transparent;
+  margin-right: 5px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+body main .hero-section .left-section-btn button:hover {
+  color: red;
+  border-bottom: 1px solid red;
+}
+body main .hero-section .head {
+  font-size: 70px;
+}
+body main .hero-section h1 {
+  font-size: 64px;
+}
+body main .hero-section p {
+  font-size: 16px;
+  padding: 40px;
+  color: gray;
+}
+body main .hero-section h2 {
+  padding: 150px;
+  font-size: 40px;
+}
+body main .hero-section .btn-containers {
+  display: flex;
+}
+body main .hero-section .hero-link {
+  padding: 17px;
+  background-color: red;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 8px;
+  display: inline-block;
+  margin-right: 24px;
+}
+body main .hero-section .hero-btn {
+  padding: 12px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  border-radius: 8px;
+}
+body main .hero-section .right-section {
+  width: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body main .hero-section .img-2 {
+  display: flex;
+  height: 100vhpx;
+  padding-top: 72px;
+  padding-left: 42px;
+}
+body main .imge {
+  padding-top: 120px;
+  padding-right: 45px;
+}
+body main .pricing {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  display: block;
+  padding-top: 120px;
+}
+body main .pricing .p1 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  font-size: 58px;
+}
+body main .pricing .p2 {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  padding-top: 47px;
+  font-size: 23px;
+  color: rgb(131, 113, 113);
+}
+body main .pricing .p3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 47px;
+  padding-right: 9px;
+  font-size: 25px;
+}
+body main .pricing .p3 .discount {
+  display: inline;
+  font-size: 9px;
+  height: 15px;
+  text-decoration: none;
+  border: none;
+  background-color: rgb(240, 240, 174);
+  margin-left: 15px;
+  margin-top: 6px;
+}
+body main .pricing .p4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-decoration: none;
+  padding-top: 47px;
+}
+body main .pricing .p4 .b1 {
+  text-decoration: none;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  padding-right: 120px;
+  font-weight: 100px bold;
+  padding-left: 120px;
+  border-bottom: 1px solid gray;
+}
+body main .pricing .p4 .b1:hover {
+  color: red;
+  font-weight: 600;
+  border-bottom: 1px solid red;
+}
+body main .pricing .p4 .b2 {
+  text-decoration: none;
+  border: none;
+  font-size: 30px;
+  background-color: white;
+  padding-left: 120px;
+  padding-right: 120px;
+  border-bottom: 1px solid gray;
+}
+body main .pricing .p4 .b2:hover {
+  color: red;
+  font-weight: 600;
+  border-bottom: 1px solid red;
+}
+body main .pricing .price {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 45px;
+}
+body main .pricing .next {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 50px;
+  color: rgb(59, 57, 57);
+  padding-top: 53px;
+  padding-bottom: 45px;
+  background-color: #f5f2f2;
+}
+body main .pricing .get {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: 0;
+  border: none;
+}
+body main .pricing .get .whatsapp {
+  color: red;
+}
+body main .red-part {
+  background-color: red;
+  padding-top: 35px;
+}
+body main .red-part .divi {
+  display: flex;
+}
+body main .red-part .divi .left-down {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+body main .red-part .divi .right-down {
+  width: 50%;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+body main .red-part .divi .right-down .red-table {
+  justify-content: space-between;
+}
+body main .red-part .biult {
+  display: flex;
+  flex-direction: row;
+  padding-top: 30px;
+}/*# sourceMappingURL=Home.css.map */
